@@ -1,0 +1,11 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests
+
+environment:
+  module: R
+
+r:
+  library_path: /projects/standard/mcgaughs/drabe004/R/x86_64-pc-linux-gnu-library/4.0
+
+paths:
+  tree_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests/Trees_for_Hyphy_BRAv9/Trees_for_Hyphy_BRAv9_patch/PatchedTrees/HFTrees/
+  foreground_file: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Species_List_FG.txt

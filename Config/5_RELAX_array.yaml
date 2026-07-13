@@ -1,0 +1,19 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests
+
+environment:
+  module_path: /common/software/modulefiles/manual/common
+  module: hyphy/2.5.53
+
+paths:
+  alignment_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Orthocaller_Codon_Alignments/PAL2NAL_alns_V9_ShortestDist_DefaultBranchReassignments_Patched/cleanedforSelTestsNoStopCodons
+  tree_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests/Trees_for_Hyphy_BRAv9/Trees_for_Hyphy_BRAv9_patch/PatchedTrees/FGBGTrees
+  output_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests/RELAX_OUT_BRAv9_patch
+  log_directory: RELAX_BRAv9_logs_patch
+
+files:
+  alignment_pattern: "*.fasta"
+  alignment_list: filelist.txt
+
+analysis:
+  test_branch: Foreground
+  srv: Yes

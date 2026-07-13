@@ -1,0 +1,11 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests
+
+environment:
+  module: conda
+  conda_env: orthocaller
+
+paths:
+  input_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests/V9_Result_CSVs
+
+script:
+  python_script: parseCSVs.py

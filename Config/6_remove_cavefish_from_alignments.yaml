@@ -1,0 +1,12 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Orthocaller_Codon_Alignments
+
+environment:
+  module: conda
+  conda_env: orthocaller
+
+paths:
+  species_list: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Species_List_FG.txt
+
+  alignment_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Orthocaller_Codon_Alignments/PAL2NAL_alns_V9_ShortestDist_DefaultBranchReassignments_Patched/cleanedforSelTestsNoStopCodons
+
+  output_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Orthocaller_Codon_Alignments/PAL2NAL_alns_V9_ShortestDist_DefaultBranchReassignments_Patched/cleanedforSelTestsNoStopCodons/NoCavefishAlns

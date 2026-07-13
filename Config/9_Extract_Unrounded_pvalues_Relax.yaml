@@ -1,0 +1,11 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests
+
+environment:
+  module: python
+
+paths:
+  input_directory: RELAX_OUT_BRAv9
+  output_file: RELAX_OUT_BRAv9.csv
+
+script:
+  python_script: Extract_Unrounded_pvalues_Relax.py

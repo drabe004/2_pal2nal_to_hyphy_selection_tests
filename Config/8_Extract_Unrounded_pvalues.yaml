@@ -1,0 +1,11 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests
+
+environment:
+  module: python
+
+paths:
+  input_directory: BUSTED-E_FGBG_OUT_BRAv9_DROP
+  output_file: BUSTED-E_FGBG_OUT_BRAv9_DROP.csv
+
+script:
+  python_script: Extract_Unrounded_pvalues.py

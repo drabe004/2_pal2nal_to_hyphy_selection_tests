@@ -1,0 +1,10 @@
+working_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests
+
+environment:
+  module: conda
+  conda_env: orthocaller
+
+paths:
+  master_tree: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SpeciesTree_rooted_NOUNDERSCORES_NBL.tre
+  codon_alignments: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/Orthocaller_Codon_Alignments/PAL2NAL_alns_V9_ShortestDist_DefaultBranchReassignments_Patched/cleanedforSelTestsNoStopCodons/
+  output_directory: /projects/standard/mcgaughs/drabe004/BIGFISHGENOME_DataRespository/SelectionTests/Trees_for_Hyphy_BRAv9/Trees_for_Hyphy_BRAv9_patch/PatchedTrees/HFTrees
